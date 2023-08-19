@@ -118,7 +118,6 @@ class Nivetha:
     def software(self):
         sleep(5)
         # self.driver.find_element(by=By.XPATH, value=Nivetha_locators().softwarel).click()
-        self.driver.find_element(by=By.XPATH, value=Nivetha_locators().computers_l).click()
         sleep(3)
         self.driver.find_element(by=By.XPATH, value=Nivetha_locators().software_l).click()
         self.driver.implicitly_wait(5)
